@@ -7,10 +7,10 @@ CC = gcc
 CFLAGS = -g -Wall
 
 # Target executable name
-TARGET = linked2
+TARGET = hash
 
 # Source files
-SRCS = linkedlistII.c  # Add other source files
+SRCS = hashtable.c  # Add other source files
 
 # Object files (replace .c from SRCS with .o)
 OBJS = $(SRCS:.c=.o)
